@@ -12,7 +12,7 @@ const hero_info = {
   name: "Tour229",
   image: image,
   title: "Xperiences pieds sur terre, regard sur l'eau",
-  description: "Join unique interactive activities led by one-of-a-kind hosts—all without leaving home."
+  description: "Participez à des activités interactives uniques dirigées par des hôtes uniques, le tout sans quitter votre domicile."
 }
 
 function App() {

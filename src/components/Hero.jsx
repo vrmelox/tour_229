@@ -22,7 +22,7 @@ function Hero({hero_info}) {
     );
 };
 
-Hero.PropTypes = {
+Hero.propTypes = {
     hero_info: PropTypes.shape ({
         image: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,

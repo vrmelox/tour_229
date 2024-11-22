@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types'
+import '../styles/cards.css'
 
 function Cards({cartes}) {
     return (
         <div className="cartes">
-            <img src={cartes.image} />
+            <img src={cartes.image} className='cartes--img'/>
             <div>
                 <img src={cartes.star} />
                 <p>
@@ -23,7 +24,7 @@ function Cards({cartes}) {
     );
 };
 
-Cards.prototypes = {
+Cards.PropTypes = {
     cartes: PropTypes.shape ({
         image: PropTypes.string.isRequired,
         star: PropTypes.string.isRequired,

@@ -8,7 +8,7 @@ function Cards({cartes}) {
             <div>
                 <img src={cartes.star} />
                 <p>
-                    <span>{cartes.ratings * 1.0}</span>
+                    <span>{`${cartes.ratings * 1.0}`}</span>
                     <span>{`(${cartes.persons})`}</span>
                     <span>{`. ${cartes.city}`}</span>
                 </p>

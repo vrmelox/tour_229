@@ -3,6 +3,11 @@
     align-items: center;
     justify-content: center;
     margin: 3rem;
+
+}
+
+.hero-image img {
+    align-self: center;
 }
 
 .hero-text {

@@ -1,0 +1,15 @@
+nav img {
+    width: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    color: #136296;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    font-size: 1.7rem;
+}

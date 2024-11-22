@@ -2,6 +2,8 @@ import logo from './assets/tour229.svg';
 import Navbar from './components/Navbar';
 import image from './assets/Group.png'
 import Hero from './components/Hero';
+import { activities } from './datas/activities';  
+import Cards from './components/Cards';
 
 const tour_info = {
   name: "Tour229",
@@ -20,6 +22,11 @@ function App() {
     <div>
       <Navbar tour_infos={tour_info} />
       <Hero hero_info={hero_info} />
+      <section className='cards--section'>
+        {activities.map((activity, index) => (
+          <Cards key={index} cartes={activity} />
+        ))}
+      </section>
     </div>
   );
 }

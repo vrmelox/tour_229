@@ -27,10 +27,11 @@ Cards.prototypes = {
     cartes: PropTypes.shape ({
         image: PropTypes.string.isRequired,
         star: PropTypes.string.isRequired,
-        ratings: PropTypes.integer.isRequired,
-        persons: PropTypes.integer.isRequired
-
-    })
-}
+        ratings: PropTypes.number.isRequired,
+        persons: PropTypes.number.isRequired,
+        city: PropTypes.string.isRequired,
+        prices: PropTypes.number.isRequired,
+    }).isRequired,
+};
 
 export default Cards;

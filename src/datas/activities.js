@@ -5,7 +5,7 @@ export const activities = [
         price: 136,
         ratings: 5,
         persons: 6,
-        image: '../assets/peche.jpg'
+        image: './assets/peche.jpg'
     },
     {
         name: 'Apprendre la couture',
@@ -13,7 +13,7 @@ export const activities = [
         price: 250,
         ratings: 5,
         persons: 17,
-        image: '../assets/tailleur.jpg'
+        image: './assets/tailleur.jpg'
     },
     {
         name: 'Apprendre la percussion Vodoun',
@@ -21,7 +21,7 @@ export const activities = [
         price: 50,
         ratings: 5,
         persons: 36,
-        image: '../assets/jouer.jpg'
+        image: './assets/jouer.jpg'
     },
 
 ]

@@ -1,0 +1,23 @@
+.hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.hero-text {
+    margin: 1rem 3rem;
+}
+
+.hero-title {
+    font-size: 36px;
+    line-height: 110%;
+    font-weight: 700;
+}
+
+.hero-description {
+    font-size: 16px;
+    width: 320px;
+    height: 56px;
+    margin-top: 20px;
+}
